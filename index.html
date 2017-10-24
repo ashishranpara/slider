@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Slider</title>
+    <meta charset="utf-8" />
+    <link href="assets/style.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body>
+    <div class="slidercontainer123 slideshow-container">
+        <div class="showSlide fade mySlides" >
+            <img class = "slide" src="assets/images/yellow_flower.jpg" />
+            <div class="content">Slide1 heading</div>
+        </div>
+        <div class="showSlide fade mySlides">
+            <img class = "slide" src="assets/images/white_flower.jpg" />
+            <div class="content">Slide2 heading</div>
+        </div>
+        <div class="showSlide fade mySlides">
+            <img class = "slide" src="assets/images/purple_flower.jpg" />
+            <div class="content">Slide3 heading</div>
+        </div>
+        <!-- Navigation arrows -->
+        <a class="left" onclick="nextSlide(-1)"><img src = "assets/images/left_arrow.png"></a>
+        <a class="right" onclick="nextSlide(1)"><img src = "assets/images/right_arrow.png"></a>
+        <br>
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+    <script src="assets/main.js" type="text/javascript"></script>
+</body>
+</html>
